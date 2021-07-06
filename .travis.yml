@@ -5,7 +5,7 @@ install:
   - go get GitHub.com/gohugoio/hugo
 scipt:
   - mkdir -p themes/beautifulhugo && git clone https://Github.com/halogenica/beautifulhugo.git themes/beautifulhugo
-  - gugo --theme beautifulhugo
+  - hugo --theme beautifulhugo
 deploy:
   provider: pages
   skip_cleanup: true
